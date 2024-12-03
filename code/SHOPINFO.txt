@@ -1,0 +1,16 @@
+---------------------------------------------------------------------
+SHOP1:FORMASAN_MACAQUE
+CITY:KAOHSIUNG
+ADDRESS:No.78, Sec. 1;Ocean Rd;Banana Dist.,Kaohsiung,Taiwan(R.O.C.)
+PHONE_NUMBER:07-3425-661
+---------------------------------------------------------------------
+SHOP2:FORMASN_BLACK_BEAR
+CITY:HUALIEN
+ADDRESS:No.179;Mountain Rd;Honey Dist.,Hualien,Taiwan(R.O.C.)
+PHONE_NUMBER:03-5624-346
+---------------------------------------------------------------------
+SHOP3:FORMAOSN_SIKA_DEER
+CITY :PINGTUNG
+ADDRESS:No.54;Prairie Rd;Leaves Dist.,Pingtung,Taiwan(R.O.C.)
+PHONE_NUMBER:08-9932-432
+---------------------------------------------------------------------
