@@ -7,8 +7,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "第十七組_B094020022郭向恬_B097610007王靖_B104020001徐雩芷 _B104020002劉和媛_程設期末專案_Customer.h"
-#include "第十七組_B094020022郭向恬_B097610007王靖_B104020001徐雩芷 _B104020002劉和媛_程設期末專案_define.h"
+#include "Customer.h"
+#include "define.h"
  //UI variable
 char confirm[CFM_LEN];
 char command[SIZE];  
