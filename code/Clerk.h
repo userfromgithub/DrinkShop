@@ -3,8 +3,8 @@
 #include <string.h>
 #include <windows.h>
 #include <assert.h>
-#include "第十七組_B094020022郭向恬_B097610007王靖_B104020001徐雩芷 _B104020002劉和媛_程設期末專案_Command.h"
-#include "第十七組_B094020022郭向恬_B097610007王靖_B104020001徐雩芷 _B104020002劉和媛_程設期末專案_Define.h"
+#include "Command.h"
+#include "Define.h"
 
  // function prototypes
 void punchIOTim(const char *name);
@@ -27,7 +27,7 @@ void punchIOTim(const char *name) {
 
 		
 	if (strcmp(name, "TIM") == 0) {
-		fp1 = fopen("第十七組_B094020022郭向恬_B097610007王靖_B104020001徐雩芷 _B104020002劉和媛_程設期末專案_Tim.txt", "a");
+		fp1 = fopen("Tim.txt", "a");
 		assert(fp1 != NULL);
 		if ((Timwork % 2) == 1) {
 			fprintf(fp1, "%-10s: %s", "PUNCH IN", ctime(&t));

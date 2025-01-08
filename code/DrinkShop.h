@@ -2,10 +2,10 @@
 #include <string.h>
 #include <stdbool.h>
 #include <assert.h>
-#include "²Ä¤Q¤C²Õ_B094020022³¢¦V«ï_B097610007¤ý¹t_B104020001®}³¸ªé _B104020002¼B©M´D_µ{³]´Á¥½±M®×_DrinkStruct.h"
-#include "²Ä¤Q¤C²Õ_B094020022³¢¦V«ï_B097610007¤ý¹t_B104020001®}³¸ªé _B104020002¼B©M´D_µ{³]´Á¥½±M®×_Clerk.h"
-#include "²Ä¤Q¤C²Õ_B094020022³¢¦V«ï_B097610007¤ý¹t_B104020001®}³¸ªé _B104020002¼B©M´D_µ{³]´Á¥½±M®×_Game.h"
-#include "²Ä¤Q¤C²Õ_B094020022³¢¦V«ï_B097610007¤ý¹t_B104020001®}³¸ªé _B104020002¼B©M´D_µ{³]´Á¥½±M®×_SetPoint.h"
+#include "B097610DrinkStruct.h"
+#include "Clerk.h"
+#include "Game.h"
+#include "SetPoint.h"
 
 // function prototypes
 void Instruction();
@@ -63,7 +63,7 @@ void makeBeverage(int n, char item_name[][BOUGHT_BEV_LEN], char comb[]) {
 	size_t i = 0;
    
 	while (i < n) {
-		fp = fopen("²Ä¤Q¤C²Õ_B094020022³¢¦V«ï_B097610007¤ý¹t_B104020001®}³¸ªé _B104020002¼B©M´D_µ{³]´Á¥½±M®×_RECIPE.txt","r");
+		fp = fopen("RECIPE.txt","r");
 		assert(fp != NULL);	
 		while(fscanf(fp, "%s %[^\n]%*c", name, recipe) != EOF) {
 			if(strcmp(name, item_name[i]) == 0) {
@@ -82,7 +82,7 @@ void makeBeverage(int n, char item_name[][BOUGHT_BEV_LEN], char comb[]) {
 void readIngredient() {
 	
 	FILE *fp;
-	fp = fopen("²Ä¤Q¤C²Õ_B094020022³¢¦V«ï_B097610007¤ý¹t_B104020001®}³¸ªé _B104020002¼B©M´D_µ{³]´Á¥½±M®×_PURCHASE.txt","r");
+	fp = fopen("PURCHASE.txt","r");
 	assert(fp != NULL);
 	size_t i = 0;
 	while (!feof(fp)) {
@@ -102,7 +102,7 @@ void countIngredient(int n, char item_name[][BOUGHT_BEV_LEN], char cup[]) {
 	
 	size_t i = 0;
 	while (i < n) {
-		fp = fopen("²Ä¤Q¤C²Õ_B094020022³¢¦V«ï_B097610007¤ý¹t_B104020001®}³¸ªé _B104020002¼B©M´D_µ{³]´Á¥½±M®×_INGREDIENTS.txt","r");
+		fp = fopen("ï¿½Ä¤Qï¿½Cï¿½ï¿½_B094020022ï¿½ï¿½ï¿½Vï¿½ï¿½_B097610007ï¿½ï¿½ï¿½t_B104020001ï¿½}ï¿½ï¿½ï¿½ï¿½ _B104020002ï¿½Bï¿½Mï¿½D_ï¿½{ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½_INGREDIENTS.txt","r");
 		assert(fp != NULL);
 		while(!feof(fp)) {
 			fscanf(fp, "%s %s %s %s %s", Ingt.name, Ingt.ing1, Ingt.ing2, Ingt.ing3, Ingt.ing4);
@@ -284,7 +284,7 @@ int countTotal() {
 	size_t i = 0;
 	FILE *fp;
 	while (i < type) {
-		fp = fopen("²Ä¤Q¤C²Õ_B094020022³¢¦V«ï_B097610007¤ý¹t_B104020001®}³¸ªé _B104020002¼B©M´D_µ{³]´Á¥½±M®×_MENU.txt","r");
+		fp = fopen("ï¿½Ä¤Qï¿½Cï¿½ï¿½_B094020022ï¿½ï¿½ï¿½Vï¿½ï¿½_B097610007ï¿½ï¿½ï¿½t_B104020001ï¿½}ï¿½ï¿½ï¿½ï¿½ _B104020002ï¿½Bï¿½Mï¿½D_ï¿½{ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½_MENU.txt","r");
 		assert(fp != NULL);
 		while (!feof(fp)) {
 			fscanf(fp, "%s %d %d %s %d %d", Drink1.name, &Drink1.Mprice, &Drink1.Lprice, Drink2.name, &Drink2.Mprice, &Drink2.Lprice);
@@ -354,7 +354,7 @@ int beforeDiscount() {
 	total = 0;
 	FILE *fp;
 	while (i < type) {
-		fp = fopen("²Ä¤Q¤C²Õ_B094020022³¢¦V«ï_B097610007¤ý¹t_B104020001®}³¸ªé _B104020002¼B©M´D_µ{³]´Á¥½±M®×_MENU.txt","r");
+		fp = fopen("ï¿½Ä¤Qï¿½Cï¿½ï¿½_B094020022ï¿½ï¿½ï¿½Vï¿½ï¿½_B097610007ï¿½ï¿½ï¿½t_B104020001ï¿½}ï¿½ï¿½ï¿½ï¿½ _B104020002ï¿½Bï¿½Mï¿½D_ï¿½{ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½_MENU.txt","r");
 		assert(fp != NULL);
 		while (!feof(fp)) {
 			fscanf(fp, "%s %d %d %s %d %d", Drink1.name, &Drink1.Mprice, &Drink1.Lprice, Drink2.name, &Drink2.Mprice, &Drink2.Lprice);
@@ -406,7 +406,7 @@ void checkAvail() {
 
 	size_t i = 0;
 	while (i < ind) {
-		fp2 = fopen("²Ä¤Q¤C²Õ_B094020022³¢¦V«ï_B097610007¤ý¹t_B104020001®}³¸ªé _B104020002¼B©M´D_µ{³]´Á¥½±M®×_INGREDIENTS.txt","r");
+		fp2 = fopen("ï¿½Ä¤Qï¿½Cï¿½ï¿½_B094020022ï¿½ï¿½ï¿½Vï¿½ï¿½_B097610007ï¿½ï¿½ï¿½t_B104020001ï¿½}ï¿½ï¿½ï¿½ï¿½ _B104020002ï¿½Bï¿½Mï¿½D_ï¿½{ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½_INGREDIENTS.txt","r");
 		while(!feof(fp2)) {
 			fscanf(fp2, "%s %s %s %s %s", Ingt.name, Ingt.ing1, Ingt.ing2, Ingt.ing3, Ingt.ing4);
 			if(strcmp(ingredient[saveInd[i]], Ingt.ing1) == 0) {

@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <assert.h>
 #include <time.h>
-#include "第十七組_B094020022郭向恬_B097610007王靖_B104020001徐雩芷 _B104020002劉和媛_程設期末專案_DrinkShop.h"
+#include "DrinkShop.h"
 
  // function prototypes
 void checkMenu();
@@ -23,7 +23,7 @@ void checkMenu() {
 
 	FILE *fp;
 	printf("HERE'S THE MENU!\n");
-	fp = fopen("第十七組_B094020022郭向恬_B097610007王靖_B104020001徐雩芷 _B104020002劉和媛_程設期末專案_menu.txt","r");	
+	fp = fopen("menu.txt","r");	
 	assert(fp != NULL);	
 		
 	int count = 0;
@@ -56,7 +56,7 @@ void checkShopInformation() {
 	FILE *fp;
 	char string[1000];	
 	printf("\t\t\t<HERE IS THE SHOPINFORMATION>\n");
-	fp = fopen("第十七組_B094020022郭向恬_B097610007王靖_B104020001徐雩芷 _B104020002劉和媛_程設期末專案_SHOPINFO.txt","r");
+	fp = fopen("SHOPINFO.txt","r");
 	assert(fp != NULL);	
 		
 	while(fgets(string, 1000, fp) != NULL){
