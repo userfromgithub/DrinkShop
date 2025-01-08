@@ -30,6 +30,18 @@ Customers could choose either one of the options below..
 <img src="demo_imgs\confirmorder.png" width=50%/>
 
 #### 
+<img src="demo_imgs\askReceipt.png" width=50%/>
+
+#### :game_die: Discount Challenge Game (Command: YES or No)
+<img src="demo_imgs\discountChallenge.png" width=50%/>
+
+#### :grey_question: Pick a Number against the Machine (Command: 1/2/3/4/5/6)
+<img src="demo_imgs\ingame.png" width=50%/>
+
+####
+
+
+
 
 ## :warning: Issues
 You might encounter Warning Message "source file not compiled", recommended solution is..
