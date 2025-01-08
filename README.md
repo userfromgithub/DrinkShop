@@ -1,9 +1,7 @@
 # The Drink Shop
-
-
-## Introduction to this project
 This is a Drink Shop machine for both the clerk and the orders of customers.
 
+## Introduction to this project
 The shop currently has only one clerk whose name is Tim and was responsible for the following jobs:
 * Start the machine daily before work
 * Close the machine daily after work
