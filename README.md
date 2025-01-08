@@ -4,7 +4,7 @@
 ## Introduction to this project
 This is a Drink Shop machine for both the clerk and the orders of customers.
 
-### STEPs
+## :walking: STEPs
 The shop currently has only one clerk whose name is Tim and was responsible for the following jobs:
 * Start the machine daily before work
 * Close the machine daily after work
@@ -31,7 +31,7 @@ Customers could choose either one of the options below..
 
 #### 
 
-## Issues
+## :warning: Issues
 You might encounter Warning Message "source file not compiled", recommended solution is..
 Go to the path `C:\Dev-Cpp\libexec\gcc\mingw32\3.4.2` and delete the `collect2.exe` file.
 
