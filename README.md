@@ -35,7 +35,7 @@ Customers could choose either one of the options below..
 #### :slot_machine: against the Machine (Command: 1/2/3/4/5/6)
 <img src="demo_imgs\ingame.png" width=50%/>
 
-#### `&#x1F5A8;` Print Out the Receipt(E-Invoice) on the Machine
+#### 🖨️ Print Out the Receipt(E-Invoice) on the Machine
 <img src="demo_imgs\invoice.png" width=50%/>
 
 
