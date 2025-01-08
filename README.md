@@ -14,7 +14,7 @@ Customers could choose either one of the options below..
 
 ## :wrench: Functions & :walking: STEPs
 
-### the Clerk Open the Drink Shop & Instructions to the Machine is displayed
+### :triangular_flag_on_post: the Clerk Open the Drink Shop & Instructions to the Machine is displayed
 <img src="demo_imgs\StartandInstruction.png" width=50%/>
 
 ### :clipboard: Shop Menu (Command: MENU)
