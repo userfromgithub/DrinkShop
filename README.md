@@ -20,6 +20,10 @@ Customers could choose either one of the options below..
 #### :clipboard: MENU
 <img src="demo_imgs\Menu.png" width=50%/>
 
+#### :tropical_drink: STORE
+<img src="demo_imgs\Shopinfo.png" width=50%>
+
+
 ## Issues
 You might encounter Warning Message "source file not compiled", recommended solution is..
 Go to the path 'C:\Dev-Cpp\libexec\gcc\mingw32\3.4.2' and delete the 'collect2.exe' file.
