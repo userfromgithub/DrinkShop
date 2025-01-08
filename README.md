@@ -35,7 +35,7 @@ Customers could choose either one of the options below..
 ### :game_die: Discount Challenge Game (Command: YES or No)
 <img src="demo_imgs\discountChallenge.png" width=50%/>
 
-### :slot_machine: against the Machine (Command: 1/2/3/4/5/6)
+### :slot_machine: Pick a Number against the Machine (Command: 1/2/3/4/5/6)
 <img src="demo_imgs\ingame.png" width=50%/>
 
 ### 🖨️ Print Out the Receipt(E-Invoice) on the Machine
