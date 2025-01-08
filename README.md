@@ -2,10 +2,22 @@
 
 
 ## Introduction to this project
-This is a Drink Shop system for both the clerk whose name is Tim and the orders of customers.
+This is a Drink Shop machine for both the clerk and the orders of customers.
 
-### :wrench: Functions
+### STEPs
+The shop currently has only one clerk whose name is Tim and was responsible for the following jobs:
+* Start the machine daily before work
+* Close the machine daily after work
 
+After the machine is on, customers can make orders through the machine.
+Customers could choose either one of the options below..
+* Check the drinks menu of the shop
+* Check the shops information
+* Make orders
+
+### :wrench: Functions 
+#### :clipboard: MENU
+<img src="demo_imgs\Menu.png" width=50%/>
 
 ## Issues
 You might encounter Warning Message "source file not compiled", recommended solution is..
