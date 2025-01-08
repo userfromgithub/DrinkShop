@@ -24,10 +24,10 @@ Customers could choose either one of the options below..
 <img src="demo_imgs\Shopinfo.png" width=50%/>
 
 #### :pencil: Make Orders
-<img src="order.png" width=50%/>
+<img src="demo_imgs\order.png" width=50%/>
 
 #### :white_check_mark: Confirm Orders
-<img src="confirmorder.png" width=50%/>
+<img src="demo_imgs\confirmorder.png" width=50%/>
 
 #### 
 
