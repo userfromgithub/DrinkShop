@@ -15,6 +15,7 @@ Customers could choose either one of the options below..
 ## :wrench: Functions & :walking: STEPs
 
 ### :triangular_flag_on_post: the Clerk Open the Drink Shop & Instructions to the Machine is displayed
+The clerk `Tim` should first type his name in order to turn on the machine.
 <img src="demo_imgs\StartandInstruction.png" width=50%/>
 
 ### :clipboard: Shop Menu (Command: MENU)
@@ -46,6 +47,10 @@ Customers could choose either one of the options below..
 
 ### :money_with_wings: Pay your Orders
 <img src="demo_imgs\pay.png" width=50%/>
+
+### :closed_lock_with_key: Shop Closed (Command: CLOSE)
+To close the shop, the clerk has to type his name which is Tim.
+<img src="demo_imgs\closeshop.png" width=50%/>
 
 
 ## :warning: Issues
