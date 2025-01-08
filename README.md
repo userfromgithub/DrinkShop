@@ -53,6 +53,9 @@ The clerk `Tim` should first type his name in order to turn on the machine.
 To close the shop, the clerk has to type his name which is `Tim`.
 <img src="demo_imgs\closeshop.png" width=50%/>
 
+### :clock9: Open `Tim.txt` file to check the work time of the Clerk
+<img src="demo_imgs\timecard.png" width=50%/>
+
 
 ## :warning: Issues & :key: Solutions
 You might encounter Warning Message "source file not compiled", recommended solution is..
