@@ -44,6 +44,9 @@ Customers could choose either one of the options below..
 ### :heavy_check_mark: Get Point(s) & Print Out the Loyalt Card
 <img src="demo_imgs\loyaltcard.png" width=50%/>
 
+### :money_with_wings: Pay your Orders
+<img src="demo_imgs\pay.png" width=50%/>
+
 
 ## :warning: Issues
 You might encounter Warning Message "source file not compiled", recommended solution is..
