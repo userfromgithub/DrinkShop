@@ -17,16 +17,23 @@ Customers could choose either one of the options below..
 
 ## :wrench: Functions
 
-#### :clipboard: MENU
+#### :clipboard: Shop Menu (Command: MENU)
 <img src="demo_imgs\Menu.png" width=50%/>
 
-#### :tropical_drink: STORE
-<img src="demo_imgs\Shopinfo.png" width=50%>
+#### :tropical_drink: Shops Information (Command: SHOPINFO)
+<img src="demo_imgs\Shopinfo.png" width=50%/>
 
+#### :pencil: Make Orders
+<img src="order.png" width=50%/>
+
+#### :white_check_mark: Confirm Orders
+<img src="confirmorder.png" width=50%/>
+
+#### 
 
 ## Issues
 You might encounter Warning Message "source file not compiled", recommended solution is..
-Go to the path `C:\Dev-Cpp\libexec\gcc\mingw32\3.4.2` and delete the 'collect2.exe' file.
+Go to the path `C:\Dev-Cpp\libexec\gcc\mingw32\3.4.2` and delete the `collect2.exe` file.
 
 ## Reference
 issue solution: [Stack Overflow-Source file not compiled Dev C++](https://stackoverflow.com/questions/14514682/source-file-not-compiled-dev-c)
