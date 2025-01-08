@@ -49,7 +49,7 @@ The clerk `Tim` should first type his name in order to turn on the machine.
 <img src="demo_imgs\pay.png" width=50%/>
 
 ### :closed_lock_with_key: Shop Closed (Command: CLOSE)
-To close the shop, the clerk has to type his name which is Tim.
+To close the shop, the clerk has to type his name which is `Tim`.
 <img src="demo_imgs\closeshop.png" width=50%/>
 
 
