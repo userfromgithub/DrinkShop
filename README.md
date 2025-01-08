@@ -26,16 +26,17 @@ Customers could choose either one of the options below..
 #### :white_check_mark: Confirm Orders
 <img src="demo_imgs\confirmorder.png" width=50%/>
 
-#### 
+#### :scroll: Need a Receipt? (Command: YES or NO)
 <img src="demo_imgs\askReceipt.png" width=50%/>
 
 #### :game_die: Discount Challenge Game (Command: YES or No)
 <img src="demo_imgs\discountChallenge.png" width=50%/>
 
-#### :grey_question: Pick a Number against the Machine (Command: 1/2/3/4/5/6)
+#### :slot_machine: against the Machine (Command: 1/2/3/4/5/6)
 <img src="demo_imgs\ingame.png" width=50%/>
 
-####
+#### `&#x1F5A8;` Print Out the Receipt(E-Invoice) on the Machine
+<img src="demo_imgs\invoice.png" width=50%/>
 
 
 
