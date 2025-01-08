@@ -14,31 +14,32 @@ Customers could choose either one of the options below..
 
 ## :wrench: Functions & :walking: STEPs
 
-#### :clipboard: Shop Menu (Command: MENU)
+### :clipboard: Shop Menu (Command: MENU)
 <img src="demo_imgs\Menu.png" width=50%/>
 
-#### :tropical_drink: Shops Information (Command: SHOPINFO)
+### :tropical_drink: Shops Information (Command: SHOPINFO)
 <img src="demo_imgs\Shopinfo.png" width=50%/>
 
-#### :pencil: Make Orders
+### :pencil: Make Orders
 <img src="demo_imgs\order.png" width=50%/>
 
-#### :white_check_mark: Confirm Orders
+### :white_check_mark: Confirm Orders
 <img src="demo_imgs\confirmorder.png" width=50%/>
 
-#### :scroll: Need a Receipt? (Command: YES or NO)
+### :scroll: Need a Receipt? (Command: YES or NO)
 <img src="demo_imgs\askReceipt.png" width=50%/>
 
-#### :game_die: Discount Challenge Game (Command: YES or No)
+### :game_die: Discount Challenge Game (Command: YES or No)
 <img src="demo_imgs\discountChallenge.png" width=50%/>
 
-#### :slot_machine: against the Machine (Command: 1/2/3/4/5/6)
+### :slot_machine: against the Machine (Command: 1/2/3/4/5/6)
 <img src="demo_imgs\ingame.png" width=50%/>
 
-#### 🖨️ Print Out the Receipt(E-Invoice) on the Machine
+### 🖨️ Print Out the Receipt(E-Invoice) on the Machine
 <img src="demo_imgs\invoice.png" width=50%/>
 
-
+### :heavy_check_mark: Get Point(s) & Print Out the Loyalt Card
+<img src="demo_imgs\loyaltcard.png" width=50%/>
 
 
 ## :warning: Issues
