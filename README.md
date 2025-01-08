@@ -2,6 +2,9 @@
 
 
 ## Introduction to this project
+This is a Drink Shop system for both the clerk whose name is Tim and the orders of customers.
+
+:wrench: Functions
 
 
 ## Issues
