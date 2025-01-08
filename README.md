@@ -16,7 +16,7 @@ Customers could choose either one of the options below..
 * Make orders
 
 ## :wrench: Functions
-----
+
 #### :clipboard: MENU
 <img src="demo_imgs\Menu.png" width=50%/>
 
