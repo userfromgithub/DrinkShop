@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdbool.h>
 #include <assert.h>
-#include "B097610DrinkStruct.h"
+#include "DrinkStruct.h"
 #include "Clerk.h"
 #include "Game.h"
 #include "SetPoint.h"
@@ -102,7 +102,7 @@ void countIngredient(int n, char item_name[][BOUGHT_BEV_LEN], char cup[]) {
 	
 	size_t i = 0;
 	while (i < n) {
-		fp = fopen("�ĤQ�C��_B094020022���V��_B097610007���t_B104020001�}���� _B104020002�B�M�D_�{�]�����M��_INGREDIENTS.txt","r");
+		fp = fopen("INGREDIENTS.txt","r");
 		assert(fp != NULL);
 		while(!feof(fp)) {
 			fscanf(fp, "%s %s %s %s %s", Ingt.name, Ingt.ing1, Ingt.ing2, Ingt.ing3, Ingt.ing4);
@@ -284,7 +284,7 @@ int countTotal() {
 	size_t i = 0;
 	FILE *fp;
 	while (i < type) {
-		fp = fopen("�ĤQ�C��_B094020022���V��_B097610007���t_B104020001�}���� _B104020002�B�M�D_�{�]�����M��_MENU.txt","r");
+		fp = fopen("MENU.txt","r");
 		assert(fp != NULL);
 		while (!feof(fp)) {
 			fscanf(fp, "%s %d %d %s %d %d", Drink1.name, &Drink1.Mprice, &Drink1.Lprice, Drink2.name, &Drink2.Mprice, &Drink2.Lprice);
@@ -354,7 +354,7 @@ int beforeDiscount() {
 	total = 0;
 	FILE *fp;
 	while (i < type) {
-		fp = fopen("�ĤQ�C��_B094020022���V��_B097610007���t_B104020001�}���� _B104020002�B�M�D_�{�]�����M��_MENU.txt","r");
+		fp = fopen("MENU.txt","r");
 		assert(fp != NULL);
 		while (!feof(fp)) {
 			fscanf(fp, "%s %d %d %s %d %d", Drink1.name, &Drink1.Mprice, &Drink1.Lprice, Drink2.name, &Drink2.Mprice, &Drink2.Lprice);
@@ -406,7 +406,7 @@ void checkAvail() {
 
 	size_t i = 0;
 	while (i < ind) {
-		fp2 = fopen("�ĤQ�C��_B094020022���V��_B097610007���t_B104020001�}���� _B104020002�B�M�D_�{�]�����M��_INGREDIENTS.txt","r");
+		fp2 = fopen("INGREDIENTS.txt","r");
 		while(!feof(fp2)) {
 			fscanf(fp2, "%s %s %s %s %s", Ingt.name, Ingt.ing1, Ingt.ing2, Ingt.ing3, Ingt.ing4);
 			if(strcmp(ingredient[saveInd[i]], Ingt.ing1) == 0) {
