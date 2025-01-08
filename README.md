@@ -53,7 +53,7 @@ To close the shop, the clerk has to type his name which is `Tim`.
 <img src="demo_imgs\closeshop.png" width=50%/>
 
 
-## :warning: Issues
+## :warning: Issues & :key: Solutions
 You might encounter Warning Message "source file not compiled", recommended solution is..
 Go to the path `C:\Dev-Cpp\libexec\gcc\mingw32\3.4.2` and delete the `collect2.exe` file.
 
